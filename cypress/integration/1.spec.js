@@ -41,7 +41,7 @@ it ('By Find and Eq', () =>{
     cy.visit("https://next.privat24.ua/deposit");
     cy.get('tbody').find('td').find('button').eq('0');
 })
-//new comment
+//new comment  444
 it.only ('By Find and Eq', () =>{
     cy.viewport(1800,700);
     cy.visit("https://docs.cypress.io/guides/overview/why-cypress");
